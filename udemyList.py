@@ -21,3 +21,9 @@ for sound in sounds:
 
 print(result)
 # Class completed: 103
+
+# Date: 02/04/2020
+# Class : 104  
+# learning the append or extend to add elements in the lust
+# 'Insert'--> add an element in a given position 
+# ends at class 106
