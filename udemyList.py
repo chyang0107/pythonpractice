@@ -27,3 +27,6 @@ print(result)
 # learning the append or extend to add elements in the lust
 # 'Insert'--> add an element in a given position 
 # ends at class 106
+
+# Date: 2/14/2020
+# ends at class 109
