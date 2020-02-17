@@ -30,3 +30,6 @@ print(result)
 
 # Date: 2/14/2020
 # ends at class 110
+
+# Date: 2/17/2020
+# !begin at class 111 List Comprehension
