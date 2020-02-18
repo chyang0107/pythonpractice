@@ -33,3 +33,23 @@ print(result)
 
 # Date: 2/17/2020
 # !begin at class 111 List Comprehension
+
+numbers = [1, 2, 3, 4, 5]
+double_numbers = []
+
+for num in numbers:
+    double_number = num * 2
+    double_numbers.append(double_number)
+print(double_numbers)
+
+numbers = [12, 13, 14, 15, 16]
+doubleNumbers = [num * 2 for num in numbers]
+print(doubleNumbers) 
+
+name = 'colt'
+newName = [char.upper() for char in name]
+print(newName)
+
+friends = ['ashley', 'matt', 'michael']
+friendName = [friend[1].capitalize() for friend in friends]
+print(friendName)
