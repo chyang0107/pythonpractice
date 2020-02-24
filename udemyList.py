@@ -62,3 +62,9 @@ print(result)
 
 
 # Date: 2/24/2020
+# Nested list
+
+nestedList = [[1, 2, 3],[4, 5,6], [7,8,9]]
+for l in nestedList:
+    for value in l:
+        print(value)
