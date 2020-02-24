@@ -44,7 +44,7 @@ print(double_numbers)
 
 numbers = [12, 13, 14, 15, 16]
 doubleNumbers = [num * 2 for num in numbers]
-print(doubleNumbers) 
+print(doubleNumbers)
 
 name = 'colt'
 newName = [char.upper() for char in name]
@@ -53,3 +53,9 @@ print(newName)
 friends = ['ashley', 'matt', 'michael']
 friendName = [friend[1].capitalize() for friend in friends]
 print(friendName)
+
+# Date: 2/23/2020
+# Class ends at 112, List Comprehension with logic
+numbers = [1, 2, 3, 4, 5, 6]
+result = [num * 2 if num % 2 == 0 else num / 2 for num in numbers]
+print(result)
