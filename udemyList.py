@@ -63,6 +63,8 @@ print(result)
 
 # Date: 2/24/2020
 # Nested list
+# Complete List Class 
+# Go for Dictionary Class 121
 
 nestedList = [[1, 2, 3],[4, 5,6], [7,8,9]]
 for l in nestedList:
