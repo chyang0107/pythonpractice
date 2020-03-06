@@ -61,5 +61,5 @@ result = [num * 2 if num % 2 == 0 else num / 2 for num in numbers]
 print(result)
 
 
-# Date: 3/5/2020 --> 
+# Date: 3/5/2020 --> test upload
 # Class ends at 112, List Comprehension with logic
