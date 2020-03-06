@@ -59,3 +59,7 @@ print(friendName)
 numbers = [1, 2, 3, 4, 5, 6]
 result = [num * 2 if num % 2 == 0 else num / 2 for num in numbers]
 print(result)
+
+
+# Date: 3/5/2020 --> 
+# Class ends at 112, List Comprehension with logic
