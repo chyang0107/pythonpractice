@@ -81,3 +81,6 @@ for l in nestedList:
 # Set and Tuple; set provide the unique dataset
 # finish the class 145
 # Finish the class 148 06/15/2020
+lista = [1,2,3,4]
+evens = list(filter(lambda x: x % 2 == 0, lista))
+print(evens)
