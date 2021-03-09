@@ -81,6 +81,35 @@ for l in nestedList:
 # Set and Tuple; set provide the unique dataset
 # finish the class 145
 # Finish the class 148 06/15/2020
-lista = [1,2,3,4]
-evens = list(filter(lambda x: x % 2 == 0, lista))
-print(evens)
+# Date 12302020
+# lista = [1,2,3,4]
+# evens = list(filter(lambda x: x % 2 == 0, lista))
+# print(evens)
+# names = ['austin', 'penny', 'anthony','angel', 'billy']
+# aName = filter(lambda n: n[0]=='a', names)
+# print(list(aName))
+
+
+# [], None, 0 --> false
+# inactiveUsers = filter(lambda t: not t['tweets'], users)
+# print(list(inactiveUsers))
+
+# usernames =  list(map(lambda user: user["username"].upper(), 
+#     filter(lambda t: not t['tweets'], users)))
+
+# print(usernames)
+
+users = [
+	{"username": "samuel", "tweets": ["I love cake", "I love pie", "hello world!"]},
+	{"username": "katie", "tweets": ["I love my cat"]},
+	{"username": "jeff", "tweets": []},
+	{"username": "bob123", "tweets": []},
+	{"username": "doggo_luvr", "tweets": ["dogs are the best", "I'm hungry"]},
+	{"username": "guitar_gal", "tweets": []}
+]
+
+
+inactiveUsers = [user for user in users if not user['tweets']]
+print(inactiveUsers)
+inactiveUsersName = [user["username"].upper() for user in users if not user['tweets']]
+print(inactiveUsersName)
